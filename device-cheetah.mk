@@ -84,7 +84,7 @@ PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
 # Face unlock
-$(call inherit-product-if-exists, vendor/google/faceunlock/config.mk)
+$(call inherit-product-if-exists, vendor/google/faceunlock/device.mk)
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
